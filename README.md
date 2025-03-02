@@ -40,8 +40,8 @@ This is a **lightweight AI-powered blogging platform** built using **React** and
 ## 🎯 Getting Started
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/react-blog-platform.git
-cd react-blog-platform
+git clone https://github.com/mrrushikeshdaund/blog-generator-reader
+cd blog-generator-reader
 ```
 
 ### 2️⃣ Install Dependencies
