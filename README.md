@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# React Blog Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a **lightweight AI-powered blogging platform** built using **React** and **Material UI**. The app allows users to **view, search, and create blog posts**, with a smooth UI/UX experience.
 
-## Available Scripts
+## 🚀 Features
+- **Home Page**: Displays a list of blog posts.
+- **View Blog**: Read a detailed blog post.
+- **Create Blog**: Form to create a new blog post.
+- **Search & Filter**: Users can search for blogs by title or topic.
+- **Responsive UI**: Built with Material UI for a clean, responsive design.
+- **React Router**: Navigation between pages.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠 Tech Stack
+- **React** (Frontend Framework)
+- **Material UI** (UI Components & Styling)
+- **React Router** (Navigation & Routing)
+- **Vercel** (Deployment Platform)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Project Structure
+```
+📦 react-blog-platform
+├── 📂 public              # Static assets
+├── 📂 src                 # Source code
+│   ├── 📂 components      # Reusable UI components (Navbar, etc.)
+│   ├── 📂 pages           # Page components (Home, Blog View, Create Blog)
+│   ├── 📂 service         # API calls & services
+│   ├── 📜 App.js          # Main app component
+│   ├── 📜 index.js        # React entry point
+│   ├── 📜 App.css         # Global styles
+├── 📜 package.json        # Dependencies & scripts
+├── 📜 README.md           # Project documentation
+```
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎯 Getting Started
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/your-username/react-blog-platform.git
+cd react-blog-platform
+```
 
-### `npm run build`
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3️⃣ Start the Development Server
+```sh
+npm start
+```
+- The app will run on `http://localhost:3000/`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔗 API Integration
+- All blog data is fetched from a **mock API service**.
+- API functions are located in `src/service/BlogApiService.js`.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Deployment to Vercel
+### **1️⃣ Install Vercel CLI** (Optional but recommended)
+```sh
+npm install -g vercel
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **2️⃣ Build the App**
+```sh
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **3️⃣ Deploy to Vercel**
+```sh
+vercel
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

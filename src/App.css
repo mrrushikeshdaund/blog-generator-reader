@@ -28,6 +28,19 @@
   color: #61dafb;
 }
 
+.card-section {
+  margin: 5px;
+  cursor: pointer
+}
+
+.card-section:hover{
+  background-color: #b9d2ea;
+}
+
+.form-ipt {
+  padding-bottom: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
